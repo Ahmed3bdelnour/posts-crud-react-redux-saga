@@ -1,0 +1,11 @@
+.loading-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(248 253 255 / 70%);
+  z-index: 100;
+}

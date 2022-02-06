@@ -7,7 +7,7 @@ import "./index.scss";
 import store from "./store";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/posts-crud-react-redux-saga">
     <Provider store={store}>
       <App />
     </Provider>
